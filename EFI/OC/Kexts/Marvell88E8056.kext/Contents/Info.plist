@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.fix.ethernet.88E8056</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Yukon2 88E8056 Fix</string>
+	<key>CFBundlePackageType</key>
+	<string>KEXT</string>
+	<key>CFBundleShortVersionString</key>
+	<string>3.9.9</string>
+	<key>CFBundleSignature</key>
+	<string>yukon2osx</string>
+	<key>CFBundleVersion</key>
+	<string>3.9.9</string>
+	<key>IOKitPersonalities</key>
+	<dict>
+		<key>Yukon-88E8056</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.AppleYukon2</string>
+			<key>EnableLowPwr</key>
+			<integer>1</integer>
+			<key>IOClass</key>
+			<string>yukon2osx</string>
+			<key>IOPCIPrimaryMatch</key>
+			<string>0x436411ab</string>
+			<key>IOProviderClass</key>
+			<string>IOPCIDevice</string>
+			<key>MACNumber</key>
+			<integer>1</integer>
+			<key>Model</key>
+			<string>Yukon Gigabit Adapter 88E8056 Singleport Copper SA</string>
+			<key>NetworkNumber</key>
+			<integer>1</integer>
+			<key>RxDeadman</key>
+			<integer>0</integer>
+			<key>RxRingGrowOnPause</key>
+			<integer>10</integer>
+			<key>RxRingSize</key>
+			<integer>0</integer>
+			<key>RxRingSize_100MBit</key>
+			<integer>128</integer>
+			<key>RxRingSize_10MBit</key>
+			<integer>64</integer>
+			<key>RxRingSize_GigaBit</key>
+			<integer>256</integer>
+			<key>TxRingSize</key>
+			<integer>256</integer>
+			<key>Vendor</key>
+			<string>Marvell</string>
+		</dict>
+	</dict>
+	<key>OSBundleLibraries</key>
+	<dict>
+		<key>com.apple.iokit.IONetworkingFamily</key>
+		<string>1.0.0b1</string>
+		<key>com.apple.iokit.IOPCIFamily</key>
+		<string>1.0.0b1</string>
+		<key>com.apple.kpi.bsd</key>
+		<string>8.0.0b1</string>
+		<key>com.apple.kpi.iokit</key>
+		<string>8.0.0b1</string>
+		<key>com.apple.kpi.libkern</key>
+		<string>8.0.0b1</string>
+		<key>com.apple.kpi.mach</key>
+		<string>8.0.0b1</string>
+	</dict>
+	<key>OSBundleRequired</key>
+	<string>Network-Root</string>
+</dict>
+</plist>
