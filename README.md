@@ -13,12 +13,19 @@
 | RAM | 4x4GB 800MHz DDR2 |
 | Audio Chipset | Realtek ALC269. Works with Layout-id 5 |
 | dGPU | NVidia GT710. Works OOB |
-| Lan |  Gigabit LAN (Realtek RTL8111G) |
+| Lan |  Gigabit LAN (Realtek RTL8111C) |
 | OS Disk | 128GB Samsung SATA 850 Pro |
 | macOS | Big Sur 11.4 / OpenCore 0.7.0
 
 ## BIOS
 | **Setting** | **Value** |
 | ------------- | --------- |
-| SATA Mode | AHCI Mode |
+| Configure SATA | AHCI |
+| Max CPUID Value Limit | Disabled |
+| Memory Remap Feature | Enabled |
+| I/O Port Decode | 4K Decode |
+| Suspend Mode | S3 only |
+| Repost Video on S3 Resume | Yes |
+| ACPI 2.0 Support | Enabled |
+| ACPI APIC Support | Enabled |
 
