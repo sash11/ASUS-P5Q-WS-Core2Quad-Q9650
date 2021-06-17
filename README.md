@@ -10,8 +10,8 @@
 | **Component** | **Model** |
 | ------------- | --------- |
 | CPU | Core2Quad 4 cores and 4 threads @ 3.0GHz |
-| RAM | 4x4GB 800MHz DDR2 |
-| Audio Chipset | Realtek ALC269. Works with Layout-id 5 |
+| RAM | 4x2GB 800MHz DDR2 |
+| Audio Chipset | Realtek ALC1200. Works with Layout-id 5 |
 | dGPU | NVidia GT710. Works OOB |
 | Lan |  Gigabit LAN (Realtek RTL8111C) |
 | OS Disk | 128GB Samsung SATA 850 Pro |
