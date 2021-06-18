@@ -15,7 +15,7 @@
 | dGPU | NVidia GT710. Works OOB |
 | Lan |  Gigabit LAN (Realtek RTL8111C) |
 | OS Disk | 128GB Samsung SATA 850 Pro |
-| macOS | Big Sur 11.4 / OpenCore 0.7.0
+| macOS | Mojave 10.14.6 / OpenCore 0.7.0
 
 ## BIOS
 | **Setting** | **Value** |
